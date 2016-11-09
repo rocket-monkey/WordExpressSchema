@@ -10,7 +10,7 @@ First, you must install and activate [WordExpress Companion WordPress Plugin](ht
 Then, in your node application:
 
 ```
-npm install --save-dev wordexpress-schema
+npm install --save-dev wordexpress-schema-relay
 ```
 
 ##Usage
