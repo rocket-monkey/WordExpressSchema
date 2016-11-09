@@ -1,7 +1,7 @@
 {
-  "name": "wordexpress-schema",
+  "name": "wordexpress-schema-relay",
   "version": "1.2.0",
-  "description": "A GraphQL Schema for WordPress",
+  "description": "A GraphQL Schema for WordPress, Compatible for Relay",
   "files": [
     "lib"
   ],
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramsaylanier/wordexpress-schema.git"
+    "url": "git+https://github.com/rocket-monkey/WordExpressSchemaRelay.git"
   },
   "keywords": [
     "WordPress",
@@ -23,9 +23,9 @@
   "author": "Ramsay Lanier <ramsaylanier@gmail.com> (ramsaylanier.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ramsaylanier/wordexpress-schema/issues"
+    "url": "https://github.com/rocket-monkey/wordexpress-schema-relay/issues"
   },
-  "homepage": "https://github.com/ramsaylanier/wordexpress-schema#readme",
+  "homepage": "https://github.com/rocket-monkey/wordexpress-schema-relay#readme",
   "dependencies": {
     "apollo-client": "^0.3.26",
     "graphql-tag": "^0.1.7",
