@@ -275,7 +275,7 @@ export default class WordExpressDatabase {
               }), 'meta_value'));
 
               if (isParent) {
-                navItem.id = post.id;
+                navItem.id = post.id + '';
                 navItem.post_title = post.post_title;
                 navItem.order = post.menu_order;
                 navItem.linkedId = linkedId;

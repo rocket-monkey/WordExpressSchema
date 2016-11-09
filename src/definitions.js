@@ -6,7 +6,7 @@ const Definitions = `
   }
 
   type MenuItem {
-    id: String
+    id: ID!
     post_title: String
     linkedId: Int
     object_type: String
