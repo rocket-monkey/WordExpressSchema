@@ -1,4 +1,4 @@
-# wordexpress-schema
+# wordexpress-schema-relay
 This package is intended to be used with [Apollo Server](http://docs.apollostack.com/apollo-server/tools.html) to provide an easy way to setup a GraphQL server and connect it to your WordPress database. Note that Apollo Server is not a depenedecy of this package. An example of using this package with Apollo Server and Webpack is provided below.
 
 For a full example, check out the repo for [WordExpress.io](https://github.com/ramsaylanier/WordpressExpress), which was built using this package.
@@ -54,7 +54,7 @@ The first part of WordExpress Schema is **WordExpressDatabase**. This class prov
 Below is the basic implementation:
 ```es6
 import * as settings from '../settings/settings';
-import { WordExpressDefinitions, WordExpressDatabase, WordExpressResolvers } from 'wordexpress-schema';
+import { WordExpressDefinitions, WordExpressDatabase, WordExpressResolvers } from 'wordexpress-schema-relay';
 
 /*
   Example settings object:
