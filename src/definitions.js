@@ -37,7 +37,7 @@ const Definitions = `
   }
 
   type Post {
-    id: Int
+    id: String
     post_title: String
     post_content: String
     post_excerpt: String
@@ -52,7 +52,7 @@ const Definitions = `
   }
 
   type Postmeta {
-    id: Int
+    id: String
     meta_id: Int
     post_id: Int
     meta_key: String
