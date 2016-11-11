@@ -298,8 +298,10 @@ export default class WordExpressDatabase {
                 ));
 
                 if (existing.length) {
-                  existing[0].children.push({id: post.id, linkedId: linkedId });
+                  existing[0].children.push({id: post.id, linkedId: linkedId, order: post.menu_order });
                 }
+
+                existing[0].children = _.sortBy(existing[0].children, 'order');
               }
 
               menu.items = navItems;
